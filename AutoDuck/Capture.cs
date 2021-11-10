@@ -7,9 +7,6 @@ namespace AutoDuckProgram
     public class Capture
     {
         private WasapiCapture capture;
-        private float volume;
-
-        public float Volume { get => volume; }
 
         public Capture(WasapiCapture capture)
         {
